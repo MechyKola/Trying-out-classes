@@ -1,5 +1,6 @@
 
-//vehicleDataOnly - create a vehicle object, populate its members from keyboard and then write it back out.
+//vehicleDataOnly - create a vehicle object, 
+//populate its members from keyboard and then write it back out.
 
 using System;
 
@@ -16,7 +17,8 @@ namespace VehicleDataOnly
 	{
 		static void Main(string[] args)
 		{
-			//this program should have data entry validation, but it doesn't because this is a small program aiming to ntroduce the use of classes
+			//this program should have data entry validation, 
+			//but it doesn't because this is a small program aiming to ntroduce the use of classes
 			//prompt user to enter name
 			Console.WriteLine("Enter the properties of your vehicle");
 			//create an instance of vehicle
@@ -39,7 +41,8 @@ namespace VehicleDataOnly
 			//now display the results
 			Console.WriteLine("\nYour Vehicle is a ");
 			Console.WriteLine (myCar.manufacturer + " " + myCar.model);
-			Console.WriteLine ("with " + myCar.numOfDoors + " doors, " + "riding on " + myCar.numOfWheels + " wheels.");
+			Console.WriteLine ("with " + myCar.numOfDoors + " doors, " + "riding on " 
+			+ myCar.numOfWheels + " wheels.");
 			//wait for user to acknowledge the results
 			Console.WriteLine("Press enter to terminate...");
 			Console.Read ();
